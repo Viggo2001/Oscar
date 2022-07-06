@@ -1,0 +1,19 @@
+{
+  "name": "oscar-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Onodwa Siyotula",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.3",
+    "nodemon": "^2.0.19",
+    "only": "^0.0.2",
+    "package-lock": "^1.0.5"
+  }
+}
