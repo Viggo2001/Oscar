@@ -8,7 +8,7 @@ app.use(express.static('static_files'));
 
 app.listen(8000);
 
-dbURI = 'mongodb+srv://tom123:Graphic4@mynewcluster.coxgo.mongodb.net/?retryWrites=true&w=majority';
+dbURI = 'mongodb+srv://tom123:<password>@mynewcluster.coxgo.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(dbURI)
     .then((result) => {
 
